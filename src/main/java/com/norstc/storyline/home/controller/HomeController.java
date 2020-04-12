@@ -15,4 +15,9 @@ public class HomeController {
 	public String error() {
 		return "404";
 	}
+	
+	@GetMapping(value="/home" )
+	public String home() {
+		return "homepage";
+	}
 }
